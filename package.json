@@ -1,18 +1,38 @@
 {
   "name": "npm-learing",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "npm-publish-test",
   "main": "index.js",
   "scripts": {
     "build:stage": "node ./src/index.js && node ./src/log.js",
     "build:uat": "",
-    "build:prod": "node ./src/index.js"
+    "build:prod": "node ./src/index.js",
+    "start": "node ./src/log.js"
   },
-  "keywords": ["npm pulish", "npm", "npm-publish-test"],
+  "keywords": [
+    "npm pulish",
+    "npm",
+    "npm-publish-test"
+  ],
+  "files": [
+    "./src/log.js"
+  ],
+  "homepage": "https://github.com/codermakers/npm-learing",
+  "bugs": {
+    "url": "https://github.com/codermakers/npm-learing/issues"
+  },
   "author": "foo-bar-coder",
+  "contributors": [
+    {
+      "name": "foo-bar-coder",
+      "email": "codermakers@outlook.com"
+    }
+  ],
+  "private": "true",
   "license": "ISC",
   "dependencies": {
     "dayjs": "^1.11.9",
+    "element": "^0.1.4",
     "lodash-es": "^4.17.21"
   }
 }
